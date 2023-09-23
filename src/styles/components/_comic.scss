@@ -1,0 +1,26 @@
+.comic_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color: $segundary;
+    margin: 10px;
+    padding: 10px;
+    width: 340px;
+    text-align: center;
+    color: $color;
+    
+    &:hover{
+        background-color: $main;
+
+        button{
+            background-color: $segundary;
+        }
+    }
+
+
+    img {
+        width: 200px;
+    
+    }
+}

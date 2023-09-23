@@ -1,0 +1,6 @@
+
+export const GET_COMICS= "GET_COMICS";
+export const GET_COMICS_BY_NAME= "GET_COMICS_BY_NAME";
+export const GET_COMICS_ID="GET_COMICS_ID";
+export const GET_CHARACTER_COMICS="GET_CHARACTER_COMICS";
+

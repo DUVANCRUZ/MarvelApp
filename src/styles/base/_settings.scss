@@ -1,0 +1,29 @@
+
+$main: rgb(67, 43, 82);
+$segundary:rgb(41, 63, 110);
+$color: white;
+$button-padding: 10px;
+$button-width: 150px;
+$button-width-hover: 170px;
+$button-heigth: 50px;
+$button-heigth-hover: 60px;
+$button-border-radius: 20%;
+
+
+button {
+    padding: $button-padding;
+    width: $button-width;
+    height: $button-heigth;
+    border-radius: $button-border-radius;
+    background-color: $main;
+    color: $color;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: $segundary;
+      width: $button-width-hover;
+      height: $button-heigth-hover;
+    }
+  
+   
+}

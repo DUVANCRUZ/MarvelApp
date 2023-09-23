@@ -1,0 +1,27 @@
+.searchBar_container{
+    display: flex;
+    justify-content: center; 
+    margin: 40px;
+
+    input{
+        background-color:$main;
+        color:$color;
+        width: 200px;
+        height:50px;
+        border-radius: 20%;
+        margin-right: 30px;
+
+        &:hover{
+            background-color: $segundary;
+            width: 150px;
+            height: 60px;
+        
+        }
+        &::placeholder {
+            color: rgb(174, 202, 200);
+        }
+    }
+    
+
+    
+}

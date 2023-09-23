@@ -1,0 +1,14 @@
+
+
+@import './base/settings';
+
+@import './views/landing';
+@import './views/details';
+@import './views/home';
+@import "./views/notfound";
+
+
+@import "./components/comics";
+@import "./components/comic";
+@import "./components/pagination";
+@import "./components/searchBar";
