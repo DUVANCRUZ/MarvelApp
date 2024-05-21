@@ -2,8 +2,8 @@ import React from "react";
 import { useDispatch, useSelector} from "react-redux";
 import { useEffect, useState } from "react";
 import {getComics} from "../../redux/actions";
-import Comic from "../Comic/Comic";
-import Pagination from "../Pagination/Pagination";
+import Comic from "../comic/comic";
+import Pagination from "../pagination/pagination";
 import img from "../../assets/images/hulk.gif";
 
 export default function Comics() {
@@ -26,7 +26,7 @@ export default function Comics() {
 
   //Traigo el estado comics del reducer
   const comics = useSelector((state) => state.comics);
-  
+  console.log("hol");
   /*se filtran el array de los comicd para eliminar cuando la imagen no esta disponible,
   se realiza debido a que hay muchos comics con imagenes no disponibles y daña la estetica de la pagina,
   */

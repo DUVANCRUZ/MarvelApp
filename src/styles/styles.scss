@@ -2,13 +2,16 @@
 
 @import './base/settings';
 
-@import './views/landing';
-@import './views/details';
-@import './views/home';
-@import "./views/notfound";
+@import "./components/comic/comic.scss";
+@import "./components/comics/comics.scss";
+@import "./components/pagination/pagination.scss";
+@import "./components/searchbar/searchbar.scss";
+
+@import "./views/details/details.scss";
+@import "./views/home/home.scss";
+@import "./views/landing/landing.scss";
+@import "./views/norfound/notfound.scss";
 
 
-@import "./components/comics";
-@import "./components/comic";
-@import "./components/pagination";
-@import "./components/searchBar";
+@import './medias.scss';
+

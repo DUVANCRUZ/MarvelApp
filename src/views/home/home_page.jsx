@@ -1,6 +1,6 @@
 import React from "react";
-import Comics from "../../components/Comics/Comics";
-import SearchBar from "../../components/Searchbar/Searchbar";
+import Comics from "../../components/comics/comics";
+import SearchBar from "../../components/searchbar/searchbar";
 
 
 export default function Home() {
@@ -8,10 +8,6 @@ export default function Home() {
     <div className="home_container">
       <SearchBar/>
       <Comics/>
-      
-    
-      
-      
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Route, Routes, useLocation} from 'react-router-dom';
-import Details from "./views/Details/Details_page";
-import Landing from "./views/Landing/Landing_page";
-import NotFound from "./views/Notfound/Notfound_page";
-import Home from "./views/Home/Home_page";
+import { Route, Routes} from 'react-router-dom';
+import Details from "./views/details/details_page";
+import Landing from "./views/landing/landing_page";
+import NotFound from "./views/notfound/notfound_page";
+import Home from "./views/home/home_page"
 
 
 

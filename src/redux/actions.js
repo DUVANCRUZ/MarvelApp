@@ -14,7 +14,7 @@ export const getComics = () => {
     try {
       const comicsData = await axios.get(`${urlBase}/v1/public/comics?limit=100&ts=1&apikey=${apiKey}&hash=${hash}`);
       const comics = await comicsData.data.data.results;
-      
+    
       dispatch({
         type: GET_COMICS, 
         payload: comics
